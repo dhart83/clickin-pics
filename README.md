@@ -1,1 +1,1 @@
-# Clickin Pics
+# Clickin Pics Photobooths
