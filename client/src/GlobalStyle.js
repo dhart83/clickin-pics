@@ -59,5 +59,33 @@ a {
     max-width: 1200px;
     margin-inline: auto;
 }
+@media (max-width: 1380px) {
+    .container {
+        margin-inline: 90px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        margin-inline: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+    }
+}
+
+@media (max-width: 478px) {
+    .container {
+        margin-inline: 30px;
+    }
+}
+
+@media (max-width: 350px) {
+    .container {
+        
+    }
+}
 `
 export default GlobalStyle
