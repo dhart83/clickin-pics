@@ -1,6 +1,13 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+:root {
+    --color-primary: #3959ff;
+    --color-secondary: #ca1aa4;
+    --color-h: #383838;
+    --color-p: #a8a8a8;
+    --link-color: hsl(0, 0%, 47%);
+}
 
 ::-webkit-scrollbar {
     width: 0; /* Remove scrollbar space */
@@ -37,6 +44,11 @@ h1 {
 p {
     font-size: 18px;
     color: var(--color-p);
+}
+
+span {
+    color: var(--color-primary);
+    font-weight: bolder;
 }
 
 a {
