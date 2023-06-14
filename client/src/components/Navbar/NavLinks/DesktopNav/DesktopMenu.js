@@ -8,7 +8,7 @@ const DesktopMenu = ({ toggleMenu, links }) => {
             <ul>
                 {links.map((link, key) => {
                     return (
-                        <NavLink key={key} to={link.link} onClick={toggleMenu}>
+                        <NavLink key={key} to={link.route} onClick={toggleMenu}>
                             <li>{link.name}</li>
                         </NavLink>
                     )

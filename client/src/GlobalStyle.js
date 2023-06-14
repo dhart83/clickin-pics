@@ -54,11 +54,16 @@ span {
 a {
     cursor: pointer;
 }
+
+.section {
+    padding: 90px 0;
+}
+
 .container {
-    padding: 90px 0 90px 0;
     max-width: 1200px;
     margin-inline: auto;
 }
+
 @media (max-width: 1380px) {
     .container {
         margin-inline: 90px;

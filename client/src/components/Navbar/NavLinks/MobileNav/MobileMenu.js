@@ -21,7 +21,7 @@ const MobileMenu = ({ menuIsOpen, toggleMenu, links }) => {
                         return (
                             <NavLink
                                 key={key}
-                                to={link.link}
+                                to={link.route}
                                 onClick={toggleMenu}
                             >
                                 <li>{link.name}</li>

@@ -1,10 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import { ContactForm, ContactInfo, SocialLinks } from './sections'
+
 const Contact = () => {
     return (
         <main>
-            <h1>Contact</h1>
+            <ContactForm />
+            <ContactInfo />
+            <SocialLinks />
         </main>
     )
 }

@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const About = () => {
+import { Events } from './sections'
+
+const Gallery = () => {
     return (
         <main>
-            <h1>About</h1>
+            <Events />
         </main>
     )
 }
 
-export default About
+export default Gallery

@@ -6,7 +6,7 @@ const dotenv = require('dotenv').config({ path: __dirname + './env' })
 
 module.exports = {
     target: 'web',
-    devtool: 'cheap-module-source-map',
+    devtool: 'source-map',
     devServer: {
         port: 1234,
         historyApiFallback: true,
